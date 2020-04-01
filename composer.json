@@ -1,8 +1,14 @@
 {
-    "name": "xaamin/number-to-words",
-    "description": "Currency based number to words converter",
+    "name": "sat-suite/number-to-words",
+    "description": "Currency based number to words converted",
     "type": "library",
     "license": "MIT",
+    "keywords": [
+        "cfdi",
+        "numero",
+        "letras",
+        "mexico"
+    ],
     "authors": [
         {
             "name": "Benjamín Martínez Mateos",
@@ -11,7 +17,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Xaamin\\NumberToWords\\": "src/"
+            "NumberToWords\\": "src/"
         }
     },
     "require": {}

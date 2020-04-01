@@ -1,5 +1,5 @@
 <?php
-namespace Xaamin\NumberToWords\Contracts;
+namespace SatSuite\NumberToWords\Contracts;
 
 interface CurrencyInterface
 {

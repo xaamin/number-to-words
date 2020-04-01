@@ -1,7 +1,7 @@
 <?php
-namespace Xaamin\NumberToWords\Currencies;
+namespace SatSuite\NumberToWords\Currencies;
 
-use Xaamin\NumberToWords\Currencies\Currency;
+use SatSuite\NumberToWords\Currencies\Currency;
 
 class Euro extends Currency
 {

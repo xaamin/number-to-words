@@ -1,5 +1,5 @@
 <?php
-namespace Xaamin\NumberToWords;
+namespace SatSuite\NumberToWords;
 
 class Words
 {
@@ -56,7 +56,7 @@ class Words
     protected $decimal = '';
 
     /**
-     * @var \Xaamin\NumberToWords\Currencies\Currency
+     * @var \NumberToWords\Currencies\Currency
      */
     protected $divisa;
 
@@ -70,7 +70,7 @@ class Words
     /**
      * Constructor
      *
-     * @param \Xaamin\NumberToWords\CurrencyManager $currency
+     * @param \NumberToWords\CurrencyManager $currency
      */
     public function __construct(CurrencyManager $currency = null)
     {

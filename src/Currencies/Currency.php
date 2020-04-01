@@ -1,8 +1,8 @@
 <?php
-namespace Xaamin\NumberToWords\Currencies;
+namespace SatSuite\NumberToWords\Currencies;
 
 use ArrayAccess;
-use Xaamin\NumberToWords\Contracts\CurrencyInterface;
+use SatSuite\NumberToWords\Contracts\CurrencyInterface;
 
 abstract class Currency implements CurrencyInterface, ArrayAccess
 {

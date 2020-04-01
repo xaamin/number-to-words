@@ -1,11 +1,11 @@
 <?php
-namespace Xaamin\NumberToWords;
+namespace SatSuite\NumberToWords;
 
-use Xaamin\NumberToWords\Currencies\Euro;
-use Xaamin\NumberToWords\Currencies\Dolar;
-use Xaamin\NumberToWords\Currencies\PesoMexicano;
-use Xaamin\NumberToWords\Contracts\CurrencyInterface;
-use Xaamin\NumberToWords\Exceptions\UnsupportedCurrencyException;
+use SatSuite\NumberToWords\Currencies\Euro;
+use SatSuite\NumberToWords\Currencies\Dolar;
+use SatSuite\NumberToWords\Currencies\PesoMexicano;
+use SatSuite\NumberToWords\Contracts\CurrencyInterface;
+use SatSuite\NumberToWords\Exceptions\UnsupportedCurrencyException;
 
 class CurrencyManager
 {

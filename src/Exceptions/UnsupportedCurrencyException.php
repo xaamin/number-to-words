@@ -1,5 +1,5 @@
 <?php
-namespace Xaamin\NumberToWords\Exceptions;
+namespace SatSuite\NumberToWords\Exceptions;
 
 use InvalidArgumentException;
 

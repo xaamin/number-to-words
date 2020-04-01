@@ -4,7 +4,7 @@ Currency based number to words converted
 ## Usage
 
 ```php
-use Xaamin\NumberToWords\Words;
+use SatSuite\NumberToWords\Words;
 
 $converter = new Words();
 $words = $converter->from('100.01', 'MXN');
@@ -19,9 +19,9 @@ $words = $converter->from('100.01', 'EUR');
 ### Register new currencies
 
 ```php
-use Xaamin\NumberToWords\Words;
-use Xaamin\NumberToWords\CurrencyManager;
-use Xaamin\NumberToWords\Currencies\Currency;
+use SatSuite\NumberToWords\Words;
+use SatSuite\NumberToWords\CurrencyManager;
+use SatSuite\NumberToWords\Currencies\Currency;
 
 class CanadianDolar extends Currency
 {
