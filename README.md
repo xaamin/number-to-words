@@ -47,5 +47,5 @@ $manager = new CurrencyManager();
 $manager->register(new CanadianDolar());
 
 $converter = new Words($manager);
-$words = $converter->from('100.01');
+$words = $converter->from('100.01', 'CAD);
 ```
